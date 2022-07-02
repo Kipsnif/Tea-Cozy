@@ -1,0 +1,152 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Nav Bar*/
+
+nav {
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    display: flex;
+    border-bottom: 0.5px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px;
+    float: left;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.nav-item {
+    color: seashell;
+    text-decoration: underline;
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+.nav-item:hover {
+    color: palevioletred;
+}
+
+
+/*Banner*/
+
+.banner {
+    margin-top: 69px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    height: 700px;
+    background-image: url("../images/img-mission-background.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mission {
+    background-color: black;
+    padding: 0;
+}
+
+.mission h2, h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Various Teas*/
+
+.teas {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.tea-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-pictures img{
+    max-width: 300px;
+}
+
+figcaption {
+    width: auto;
+    height: auto;
+}
+
+/*Locations*/
+
+#location {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-position: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.location {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+.location:hover {
+    background-color: seashell;
+    color: black;
+}
+
+.location h3 {
+    padding-top: 30px;
+}
+
+/*Footer*/
+
+footer {
+    height: 200px; 
+}
+
+footer h2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 20px;
+}
+
+.copyright h5 {
+    margin: 20px;
+}
